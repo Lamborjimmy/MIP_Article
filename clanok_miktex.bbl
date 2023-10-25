@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{Chonyy}
+T.~Chou.
+\newblock Hits algorithm: Link analysis explanation and python implementation.
+\newblock {\em Towards Data Science}, 2021.
+
+\bibitem{10210566}
+W.~Zhang, R.~Shang, Z.~Li, R.~Sun, and J.~Du.
+\newblock Personalized web page ranking based graph convolutional network for
+  community detection in attribute networks.
+\newblock {\em IEEE Access}, 11:84270--84282, 2023.
+
+\end{thebibliography}
