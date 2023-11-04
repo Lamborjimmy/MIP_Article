@@ -1,11 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{prime_article}
-Weitong Zhang, Ronghua Shang, Zhiyuan Li, Rui Sun, and Jun Du.
-\newblock Personalized web page ranking based graph convolutional network for
-  community detection in attribute networks.
-\newblock {\em IEEE Access}, 11:84270--84282, 2023.
-
 \bibitem{hits_article}
 T.~Chou.
 \newblock Hits algorithm: Link analysis explanation and python implementation.
@@ -13,11 +7,17 @@ T.~Chou.
   \url{https://towardsdatascience.com/hits-algorithm-link-analysis-explanation-and-python-implementation-61f0762fd7cf},
   2019.
 
-\bibitem{challenges_article}
+\bibitem{hits_challenges_article}
 Weiming Yang.
 \newblock An improved hits algorithm based on analysis of web page links and
   web content similarity.
 \newblock In {\em 2016 International Conference on Cyberworlds (CW)}, pages
   147--150, 2016.
+
+\bibitem{pageRank_formula_article}
+Weitong Zhang, Ronghua Shang, Zhiyuan Li, Rui Sun, and Jun Du.
+\newblock Personalized web page ranking based graph convolutional network for
+  community detection in attribute networks.
+\newblock {\em IEEE Access}, 11:84270--84282, 2023.
 
 \end{thebibliography}

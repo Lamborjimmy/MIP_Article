@@ -20,13 +20,11 @@
     Many people use search engines daily for information retrieval, whether it's for school, work, or personal use, but few understand the complex algorithms that power these systems.  In the realm of Information Retrieval (IR), search algorithms play a crucial role in delivering relevant results from vast datasets. There are many types of search algorithms used in IR, each of them having its unique purpose. 
 
   You can have a graph-based algorithm, a keyword-based algorithm, and many more. In this article, we will dive into the world of different search algorithms and their application in IR. In each section, we will discuss different search algorithms, how they work, and their purpose.
-    
-You can find the article that guided me towards the topic of search algorithms in references.\cite{prime_article}
 \end{abstract}
 \section{Introduction}
 In the digital age, the internet has become a crucial part of our lives, and search engines have become our number one trusted companions. Whether we're seeking answers, writing research for academic purposes or simply satisfying our unending curiosity. But have you ever stopped and thought how that keyword entry turned into relevant results you were seeking? While the act of typing a keyword into a search bar may seem straightforward, beneath the surface lies a world of complexity, driven by search algorithms. 
 
-In this article, we embark on a voyage through the realm of search algorithms. Our first destination on this journey will be the island of graph-based algorithms, where we will delve into the details of Hyperlink-Induced Topic Search (HITS)[section \ref{hits}] and the revolutionary PageRank[section \ref{pagerank}] algorithm, developed by Google's founders, Larry Page And Sergey Brin. These algorithms have put down the foundation of web search and have transformed the way we discover information online. 
+In this article, we embark on a voyage through the realm of search algorithms. Our first destination on this journey will be the island of graph-based algorithms, where we will delve into the details of Hyperlink-Induced Topic Search (HITS)[section \ref{hits}] and the revolutionary PageRank[section \ref{pagerank}] algorithm. These algorithms have put down the foundation of web search and have transformed the way we discover information online. 
 
 From there, we will set sail for the world of keyword-based algorithms. At this stage of our adventure, we will uncover the mysteries of the Vector Space Model (VSM), a mathematical structure that underpins the way documents and queries are represented in the digital space. The VSM allows us to understand how documents are transformed into mathematical vectors and how these vectors are used to determine the relevance of documents to a search query. We will also navigate through the logic of Boolean Search, which includes logical operators to retrieve documents that correspond to our search criteria. And let's not forget the Term Frequency-Inverse Document Frequency (TF-IDF), a cornerstone of keyword-based algorithms. This algorithm has paved the way for innovative approaches in information retrieval. In particular, it laid the foundation for the BM25 search algorithm, which has become one of the most common and influential algorithms used in many search engines today. We will explore the core principles of TF-IDF and how BM25 builds upon this concept to deliver relevant search results to users.
 \section{Graph-based algorithms}\label{graph-based}
@@ -70,8 +68,23 @@ Although HITS is playing significant role in information retrieval and in improv
   \item \textbf{Low Computational Efficiency} - As we have already mentioned, the HITS algorithm's computation efficiency varies depending on the size of the network and the data it works with. When working with huge amounts of data it can take vast amount of time to complete the results.
   \item \textbf{Results Can Be Manipulated} - The HITS algorithm is vulnerable by cheaters. For instance, a cheater can build a website that links to other high-quality websites, this website then gets a good hub score. Then the cheater allows this website link to his own website. This way he can increase the authority score of his website.  
 \end{itemize}
-Yet, despite these challenges, the HITS algorithm remains a foundation tool in the realm of information retrieval, helping us to find relevant information on the web with precision and accuracy.\cite{challenges_article}
+Yet, despite these challenges, the HITS algorithm remains a foundation tool in the realm of information retrieval, helping us to find relevant information on the web with precision and accuracy.\cite{hits_challenges_article}
 \subsection{PageRank}\label{pagerank}
+As we continue to sail through, our next destination is the fascinating PageRank algorithm. Developed by Google's founders Larry Page and Sergey Brin. PageRank acts as a beacon that shows a path for us towards the most valuable websites. What sets the PageRank apart from HITS is that the PageRank is query-independent, which simply means that it doesn't rely on the specific content or keywords of a user's search query to determine the result. Instead, it focuses on the web's link structure. It carefully counts the number and quality of links leading to a website, offering a rough estimate of the quality of the website. The assumption is that high-quality websites tend to receive more connections from other webpages across the internet.
+
+%TODO Explain what pagerank value is
+The steps of this algorithm are similar to the ones that we have already seen in the HITS algorithm. Let's take a better look at them:
+\begin{enumerate}
+  \item \textbf{Initialization} - PageRank scores are assigned to each webpage, typically starting with an equal score, often set to 1, to treat all pages equally and initiate the process.
+  \item \textbf{Redistribution} - During each iteration, PageRank redistributes scores based on the links between webpages. The more outbound links a webpage has, the more its PageRank is divided among those links.
+  \item \textbf{Damping factor} - PageRank introduces a damping factor, typically set around 0.85. This factor simulates the probability that a user might randomly jump to any webpage rather than following links, adding a layer of realism to the calculations.
+  \item \textbf{Repetition} - These steps and calculations are repeated for all webpages in the network until the PageRank scores no longer change significantly.
+  \item \textbf{Ranking} -  After a sufficient number of iterations, the PageRank scores are used to rank webpages. Webpages with higher scores are considered more relevant and trustworthy, playing a crucial role in search engine ranking and information retrieval.
+\end{enumerate}
+You can represent PageRank as a mathematical equation as well. The equation is shown below. 
+\[
+PR(p_i) = \frac{1 - d}{N} + d \sum_{p_j \in M_{p_i}} \frac{PR(p_j)}{L(p_j)} \quad {\cite{pageRank_formula_article}}
+\]
 \bibliographystyle{unsrt} 
 \bibliography{literatura}
 \end{document}
