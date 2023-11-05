@@ -5,7 +5,7 @@ T.~Chou.
 \newblock Hits algorithm: Link analysis explanation and python implementation.
 \newblock
   \url{https://towardsdatascience.com/hits-algorithm-link-analysis-explanation-and-python-implementation-61f0762fd7cf},
-  2019.
+  2021.
 
 \bibitem{hits_challenges_article}
 Weiming Yang.
@@ -19,5 +19,10 @@ Weitong Zhang, Ronghua Shang, Zhiyuan Li, Rui Sun, and Jun Du.
 \newblock Personalized web page ranking based graph convolutional network for
   community detection in attribute networks.
 \newblock {\em IEEE Access}, 11:84270--84282, 2023.
+
+\bibitem{pageRank_article}
+T.~Chou.
+\newblock Pagerank: Link analysis explanation and python implementation.
+\newblock \url{https://towardsdatascience.com/pagerank-3c568a7d2332}, 2021.
 
 \end{thebibliography}

@@ -35,7 +35,7 @@ Our first stop on this journey is an island of Hyperlink-Induced Topic Search(HI
 	\item \textbf{Hub} - A node is considered as high-quality if it refers to many other high-quality nodes. In other words, if a node links to multiple authoritative nodes, it is seen as a hub, connecting users to valuable information on various topics.
 \end{itemize}
 For A better understanding of authority and hub, you can take a look at Figure \ref{explanationHITS}. Node 1 has the highest score for hub because it links to the most nodes in this diagram(2 and 4). On the other hand, node 3 has the highest score for authority because it is being linked to by the most nodes(2 and 4).
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{explanation_HITS.png}
   \caption{Explanation of hub and authority}
@@ -56,7 +56,7 @@ For A better understanding of authority and hub, you can take a look at Figure \
 \end{enumerate} 
 It's essential to note that the HITS algorithm's performance can vary depending on the size of the nodes it analyzes. The number of iterations required and the time taken to reach a stable state is strongly influenced by the number of edges and nodes within the network. On a larger scale, more iterations are necessary for the score of each node to stabilize, therefore causing more computation time. 
 For instance, consider Figure \ref{comp_time}, which represents a relatively small network consisting of 7 nodes and 18 edges. In this context, the HITS algorithm would require approximately 5 iterations to reach a stable state. The computation time in such a scenario is relatively short. However, in contrast, imagine a bigger network with 1000 nodes and 5000 edges. Even after 500 iterations of the HITS algorithm, this larger network might still not have reached a stable state due to its complexity.
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{comp_time_1.png}
   \caption{Iteration time example by T.Chou\cite{hits_article}}
@@ -70,9 +70,8 @@ Although HITS is playing significant role in information retrieval and in improv
 \end{itemize}
 Yet, despite these challenges, the HITS algorithm remains a foundation tool in the realm of information retrieval, helping us to find relevant information on the web with precision and accuracy.\cite{hits_challenges_article}
 \subsection{PageRank}\label{pagerank}
-As we continue to sail through, our next destination is the fascinating PageRank algorithm. Developed by Google's founders Larry Page and Sergey Brin. PageRank acts as a beacon that shows a path for us towards the most valuable websites. What sets the PageRank apart from HITS is that the PageRank is query-independent, which simply means that it doesn't rely on the specific content or keywords of a user's search query to determine the result. Instead, it focuses on the web's link structure. It carefully counts the number and quality of links leading to a website, offering a rough estimate of the quality of the website. The assumption is that high-quality websites tend to receive more connections from other webpages across the internet.
+As we continue to sail through, our next destination is the fascinating PageRank algorithm. Created by Google, PageRank acts as a beacon that shows a path for us towards the most valuable websites. What sets the PageRank apart from HITS is that the PageRank is query-independent, which simply means that it doesn't rely on the specific content or keywords of a user's search query to determine the result. Instead, it focuses on the web's link structure. It carefully counts the number and quality of links leading to a website, offering a rough estimate of the quality of the website. The assumption is that high-quality websites tend to receive more connections from other webpages across the internet.
 
-%TODO Explain what pagerank value is
 The steps of this algorithm are similar to the ones that we have already seen in the HITS algorithm. Let's take a better look at them:
 \begin{enumerate}
   \item \textbf{Initialization} - PageRank scores are assigned to each webpage, typically starting with an equal score, often set to 1, to treat all pages equally and initiate the process.
@@ -81,10 +80,25 @@ The steps of this algorithm are similar to the ones that we have already seen in
   \item \textbf{Repetition} - These steps and calculations are repeated for all webpages in the network until the PageRank scores no longer change significantly.
   \item \textbf{Ranking} -  After a sufficient number of iterations, the PageRank scores are used to rank webpages. Webpages with higher scores are considered more relevant and trustworthy, playing a crucial role in search engine ranking and information retrieval.
 \end{enumerate}
-You can represent PageRank as a mathematical equation as well. The equation is shown below. 
+You can represent PageRank as a mathematical equation as well. The equation is shown below
 \[
 PR(p_i) = \frac{1 - d}{N} + d \sum_{p_j \in M_{p_i}} \frac{PR(p_j)}{L(p_j)} \quad {\cite{pageRank_formula_article}}
 \]
+where $PR(p_i)$ and $PR(p_j)$ represents the influence of node $p_i$ and $p_j$. The parameter $d$ represents the damping factor, $N$ represents the number of all nodes in the network. $M_{p_i}$ represents the set of nodes that link to $p_i$ and $L(p_j)$ represents the set of nodes that link to $p_j$. 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.45\textwidth]{explanation_PageRank.png}
+  \caption{PageRank example by T.Chou\cite{pageRank_article}}
+  \label{explanation_PageRank}
+\end{figure}
+
+For a better understanding of PageRank, let's take a look at Figure \ref{explanation_PageRank}. In this example, we have 6 nodes each with a score of 1 at the start. Then we proceed with the algorithm steps. After each iteration, score of each node recalculates. The reason the scores change in each iteration is due to the flow of PageRank between nodes. This means that node 2 will receive a rank from node 1, node 3 will receive a rank from node 2, and so on. Here damping factor plays a significant role, it ensures that not all PageRank from a previous node is passed to the next node. After a few iterations, we would enter a stable state where node 6 would have the highest PageRank with a score of \textit{0.252}, thanks to receiving the PageRank from nodes 1 to 5. On the other hand, node 1 would have the lowest PageRank with a score of \textit{0.061}.
+
+In conclusion, the PageRank algorithm has fundamentally shifted the way we navigate and retrieve information on the web. While PageRank has revolutionized web search, it wasn't an easy path without any challenges to face. It has similar efficiency to the HITS algorithm when it comes to bigger networks. It can be manipulated through tactics such as link farming, which is uniform to the HITS algorithm. Nevertheless, it remains a crucial component in our journey through the world of search algorithms.
+\section{Key-based algorithms}
+\subsection{Vector Space Model}
+\subsection{Booelan Search}
+\subsection{TF-IDF}
 \bibliographystyle{unsrt} 
 \bibliography{literatura}
 \end{document}
