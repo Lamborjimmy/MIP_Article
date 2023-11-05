@@ -1,5 +1,12 @@
 \begin{thebibliography}{1}
 
+\bibitem{prime_article}
+Amanveer Singh.
+\newblock Information retrieval based on the sequential hypertext induced topic
+  search in web pages.
+\newblock In {\em 2023 International Conference on Distributed Computing and
+  Electrical Circuits and Electronics (ICDCECE)}, pages 1--5, 2023.
+
 \bibitem{hits_article}
 T.~Chou.
 \newblock Hits algorithm: Link analysis explanation and python implementation.

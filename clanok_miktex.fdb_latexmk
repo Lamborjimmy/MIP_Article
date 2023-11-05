@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex clanok_miktex"] 1699163226 "clanok_miktex.aux" "clanok_miktex.bbl" "clanok_miktex" 1699163228 0
-  "./literatura.bib" 1699123458 1291 d1901183209cf10668185813b71d8ecc ""
+["bibtex clanok_miktex"] 1699163535 "clanok_miktex.aux" "clanok_miktex.bbl" "clanok_miktex" 1699163554 0
+  "./literatura.bib" 1699163491 1683 25d2232ce04776ba5499da2fa78475b8 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/bibtex/bst/bibtex/unsrt.bst" 1697113062 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "clanok_miktex.aux" 1699163227 2375 16e3a4b4559b097527ec261510a56c98 "pdflatex"
+  "clanok_miktex.aux" 1699163554 2427 8e0b34948207f08856ea102b9552998b "pdflatex"
   (generated)
   "clanok_miktex.bbl"
   "clanok_miktex.blg"
   (rewritten before read)
-["pdflatex"] 1699163226 "/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex" "clanok_miktex.pdf" "clanok_miktex" 1699163228 0
+["pdflatex"] 1699163553 "/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex" "clanok_miktex.pdf" "clanok_miktex" 1699163554 0
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1698863408 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0600.pk" 1698829512 7284 510e58c043234c62b05af436471832da ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1698935488 11548 d50142843373aaf5c9eada596f410a93 ""
@@ -93,11 +93,11 @@
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/refcount/refcount.sty" 1698863389 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1698863405 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1697113083 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex" 1699163225 13223 dc13fcb64c77e87b86199952e8ac5a60 ""
-  "clanok_miktex.aux" 1699163227 2375 16e3a4b4559b097527ec261510a56c98 "pdflatex"
-  "clanok_miktex.bbl" 1699163226 1006 6867962ce36c7935f2fdac370f9e0490 "bibtex clanok_miktex"
-  "clanok_miktex.out" 1699163227 1129 9a1935a0580d904b34e30d1d121c5202 "pdflatex"
-  "clanok_miktex.tex" 1699163225 13223 dc13fcb64c77e87b86199952e8ac5a60 ""
+  "/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex" 1699163553 13312 51fd824740cffb1fc8358bb294a21ceb ""
+  "clanok_miktex.aux" 1699163554 2427 8e0b34948207f08856ea102b9552998b "pdflatex"
+  "clanok_miktex.bbl" 1699163535 1295 1bab98202edec1ab2b0624dd0a5a0df9 "bibtex clanok_miktex"
+  "clanok_miktex.out" 1699163554 1129 9a1935a0580d904b34e30d1d121c5202 "pdflatex"
+  "clanok_miktex.tex" 1699163553 13312 51fd824740cffb1fc8358bb294a21ceb ""
   "comp_time_1.png" 1699023178 49318 6235f247a6fd7ce7a8ac27effe235b77 ""
   "explanation_HITS.png" 1698941021 102431 5b72e643799aaca9c25942a4cda0aaa2 ""
   "explanation_PageRank.png" 1699123103 27863 60b97aac61c26dcecce4fa2ed1b7c384 ""
