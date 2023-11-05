@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex clanok_miktex"] 1699163535 "clanok_miktex.aux" "clanok_miktex.bbl" "clanok_miktex" 1699163554 0
-  "./literatura.bib" 1699163491 1683 25d2232ce04776ba5499da2fa78475b8 ""
+["bibtex clanok_miktex"] 1699210128 "clanok_miktex.aux" "clanok_miktex.bbl" "clanok_miktex" 1699210442 0
+  "./literatura.bib" 1699207143 2626 835393840cc6ecb5decff9eb8c3e18a3 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/bibtex/bst/bibtex/unsrt.bst" 1697113062 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "clanok_miktex.aux" 1699163554 2427 8e0b34948207f08856ea102b9552998b "pdflatex"
+  "clanok_miktex.aux" 1699210441 3082 e12062c1a1ee8f5b67de8339873617cf "pdflatex"
   (generated)
   "clanok_miktex.bbl"
   "clanok_miktex.blg"
   (rewritten before read)
-["pdflatex"] 1699163553 "/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex" "clanok_miktex.pdf" "clanok_miktex" 1699163554 0
+["pdflatex"] 1699210441 "/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex" "clanok_miktex.pdf" "clanok_miktex" 1699210442 0
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1698863408 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0600.pk" 1698829512 7284 510e58c043234c62b05af436471832da ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1698935488 11548 d50142843373aaf5c9eada596f410a93 ""
@@ -44,6 +44,7 @@
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1697113038 35752 024fb6c41858982481f6968b5fc26508 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1697113038 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1697113038 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1697113038 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1697113038 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1697113038 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsl10.pfb" 1697113038 35022 e40946b20bfdcd1099eafb2bcd9f25dd ""
@@ -93,11 +94,11 @@
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/refcount/refcount.sty" 1698863389 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1698863405 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1697113083 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex" 1699163553 13312 51fd824740cffb1fc8358bb294a21ceb ""
-  "clanok_miktex.aux" 1699163554 2427 8e0b34948207f08856ea102b9552998b "pdflatex"
-  "clanok_miktex.bbl" 1699163535 1295 1bab98202edec1ab2b0624dd0a5a0df9 "bibtex clanok_miktex"
-  "clanok_miktex.out" 1699163554 1129 9a1935a0580d904b34e30d1d121c5202 "pdflatex"
-  "clanok_miktex.tex" 1699163553 13312 51fd824740cffb1fc8358bb294a21ceb ""
+  "/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex" 1699210440 16106 3daffa16f58b02270e408669950cf90f ""
+  "clanok_miktex.aux" 1699210441 3082 e12062c1a1ee8f5b67de8339873617cf "pdflatex"
+  "clanok_miktex.bbl" 1699210128 1976 824101238cf982e59411e76a641eacdd "bibtex clanok_miktex"
+  "clanok_miktex.out" 1699210441 1326 0c862eb7b280c3d6c9c4fe62ad307c7b "pdflatex"
+  "clanok_miktex.tex" 1699210440 16106 3daffa16f58b02270e408669950cf90f ""
   "comp_time_1.png" 1699023178 49318 6235f247a6fd7ce7a8ac27effe235b77 ""
   "explanation_HITS.png" 1698941021 102431 5b72e643799aaca9c25942a4cda0aaa2 ""
   "explanation_PageRank.png" 1699123103 27863 60b97aac61c26dcecce4fa2ed1b7c384 ""
