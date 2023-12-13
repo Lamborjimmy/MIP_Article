@@ -37,6 +37,12 @@ Aliyu Muhammad.
 \newblock Efficiency of boolean search strings for information retrieval.
 \newblock {\em American Journal of Engineering Research}, 6:216--222, 11 2017.
 
+\bibitem{boolean_search_operators_article}
+Hiroki Shibata, Hiroki Sato, Lieu-Hen Chen, and Yasufumi Takama.
+\newblock Introduction of boolean operation into context search engine.
+\newblock In {\em 2020 International Symposium on Community-centric Systems
+  (CcS)}, pages 1--6, 2020.
+
 \bibitem{VSM_explanation_article}
 Kui Fang and Juan Wang.
 \newblock An optimized features extraction algorithm on vsm.

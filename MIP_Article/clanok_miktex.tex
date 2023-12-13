@@ -99,30 +99,9 @@ For a better understanding of PageRank, let's take a look at Figure \ref{explana
 In conclusion, the PageRank algorithm has fundamentally shifted the way we navigate and retrieve information on the web. While PageRank has revolutionized web search, it wasn't an easy path without any challenges to face. It has similar efficiency to the HITS algorithm when it comes to bigger networks. It can be manipulated through tactics such as link farming, which is uniform to the HITS algorithm. Nevertheless, it remains a crucial component in our journey through the world of search algorithms.
 \section{Keyword-based algorithms}
 \subsection{Boolean Search}\label{boolean_search}
-Now, that we've abandoned the world of graph-based algorithms, let us explore the possibilities of keyword-based algorithms. Starting with none other than Boolean Search. It is known that when the user is typing a query, usually consisting of one or more words, he needs to choose his words precisely. The system then determines which documents are the most relevant to the query. Instead of leaving this decision solely to the system, users can play a crucial role in this by choosing precise query expressions using a set of operators.  This technique is called Boolean Search. The Boolean retrieval model for information retrieval revolves around formulating queries in the form of Boolean expressions, combining terms with operators like AND, OR, and NOT. In this model, each document is treated as a collection of words, allowing for systematic and targeted information retrieval \cite{boolean_search_article}. \\The meanings of Boolean Search operators are as follows
-\begin{itemize}
-  \item AND: is used as "string1 AND string2", means that both strings should be included
-  \item OR: is used as "string1 OR string2", means that at least one of the strings should be included
-  \item NOT: is used as "NOT string1", means that string1 should not be included.\cite{boolean_search_operators_article}
-\end{itemize}
-However, bear in mind that the efficiency can vary depending on the database you're entering your query on. More specialized databases such as IEEE Xplore, ACM Library, or Google Scholar may provide more advanced and precise Boolean Search results and capabilities than Google itself.
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=1\textwidth]{Boolean Search Efficiency.png}
-  \caption{Comparison between Boolean Search on Google and IEEE Xplore}
-  \label{example_boolean_search}
-\end{figure}
-In Figure \ref{example_boolean_search} you can see a comparison between searching the same query on Google and IEEE Xplore. The numbers in IEEE Xplore and Google columns represent the number of search results for each query. Pay attention to how the amount of results changes on each database. For instance, just by adding one Boolean Search operator, you can narrow the results on IEEE Xplore up to one-tenth of the previous query, whereas on Google it only narrows down to half.
+Now, that we've abandoned the world of graph-based algorithms, let us explore the possibilities of keyword-based algorithms. Starting with none other than Boolean Search. It is known that when the user is typing a query, usually consisting of one or more words, he needs to choose his words precisely. The system then determines which documents are the most relevant to the query. Instead of leaving this decision solely to the system, users can play a crucial role in this by choosing precise query expressions using a set of operators.  This technique is called Boolean Search. The Boolean retrieval model for information retrieval revolves around formulating queries in the form of Boolean expressions, combining terms with operators like AND, OR, and NOT. In this model, each document is treated as a collection of words, allowing for systematic and targeted information retrieval \cite{boolean_search_article}.
+%TODO add more info about boolean search
 
-Using the Boolean Search to achieve the most relevant results possible involves a few steps
-\begin{enumerate}
-  \item Extract the keywords from your query
-  \item Created a list of synonyms and linked words to your keywords
-  \item Tie synonyms and related words with OR opearator
-  \item Join primary ideas with AND operator
-  \item Exclude unwanted ideas with NOT operator.
-\end{enumerate}
-By following these steps you should be able to create your desired query with boolean operators rather easily and with precision.
 \subsection{Vector Space Model}\label{vsm}
 Next stop on our journey will be the Vector Space Model (VSM).Composed by G. Salton, VSM stands as one of many models used in information retrieval. Its basic thought is that it transforms the unending content of text documents and user queries into one point in multidimensional space, and is thought of as a vector\cite{VSM_explanation_article}. This transformation opens the door to calculating similarity with breathtaking precision, making VSM an invaluable tool for various applications. 
 

@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.1)  5 NOV 2023 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.9)  13 DEC 2023 08:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex
 (/Users/lamborjimmy/Stuff/FIIT/MIP/MIP_Article/clanok_miktex.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-10-23>
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
 (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
@@ -45,7 +45,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-10-21 v7.01c Hypertext links for LaTeX
+Package: hyperref 2023-10-27 v7.01d Hypertext links for LaTeX
  (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 ) (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
@@ -88,7 +88,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \Hy@linkcounter=\count196
 \Hy@pagecounter=\count197
  (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-10-21 v7.01c Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-10-27 v7.01d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/generic/intcalc/intcalc.sty
@@ -96,7 +96,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count198
  (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-10-21 v7.01c Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-10-27 v7.01d Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -135,7 +135,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2023-10-21 v7.01c Hyperref driver for pdfTeX
+File: hpdftex.def 2023-10-27 v7.01d Hyperref driver for pdfTeX
  (/Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
@@ -262,7 +262,25 @@ File: explanation_PageRank.png Graphic file (type png)
 <use explanation_PageRank.png>
 Package pdftex.def Info: explanation_PageRank.png  used on input line 92.
 (pdftex.def)             Requested size: 155.24895pt x 174.72797pt.
- [5 <./explanation_PageRank.png>] [6] (clanok_miktex.bbl
+ [5 <./explanation_PageRank.png>]
+Overfull \hbox (11.49954pt too wide) in paragraph at lines 106--107
+[]\OT1/cmr/m/n/10 NOT: is used as "NOT string1", means that string1 should not be included.[[]] 
+ []
+
+<Boolean Search Efficiency.png, id=121, 766.865pt x 149.55875pt>
+File: Boolean Search Efficiency.png Graphic file (type png)
+<use Boolean Search Efficiency.png>
+Package pdftex.def Info: Boolean Search Efficiency.png  used on input line 111.
+(pdftex.def)             Requested size: 345.0pt x 67.28484pt.
+
+Overfull \hbox (2.48566pt too wide) in paragraph at lines 108--116
+\OT1/cmr/m/n/10 ACM Li-brary, or Google Scholar may pro-vide more ad-vanced and pre-cise Boolean
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] (clanok_miktex.bbl [7 <./Boolean Search Efficiency.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 11--16
 []\OT1/cmr/m/n/10 T. Chou.  Hits al-go-rithm: Link anal-y-sis ex-pla-na-tion and
  []
@@ -277,26 +295,26 @@ Overfull \hbox (92.07976pt too wide) in paragraph at lines 11--16
 \OT1/cmtt/m/n/10 hits-[]algorithm-[]link-[]analysis-[]explanation-[]and-[]python-[]implementation-[]61f0762fd7cf$[]\OT1/cmr/m/n/10 ,
  []
 
-) [7] (clanok_miktex.aux)
+) [8] (clanok_miktex.aux)
  ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-10-23>
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `clanok_miktex.out' has not changed.
 (rerunfilecheck)             Checksum: 0C862EB7B280C3D6C9C4FE62AD307C7B;1326.
  ) 
 Here is how much of TeX's memory you used:
- 8471 strings out of 474718
- 135971 string characters out of 5737161
- 1936033 words of memory out of 5000000
- 30401 multiletter control sequences out of 15000+600000
+ 8494 strings out of 474592
+ 136608 string characters out of 5734503
+ 1936530 words of memory out of 5000000
+ 30542 multiletter control sequences out of 15000+600000
  565592 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,1215b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,1215b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk> </Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0600.pk> </Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsl10.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb></Users/lamborjimmy/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on clanok_miktex.pdf (7 pages, 370200 bytes).
+Output written on clanok_miktex.pdf (8 pages, 392979 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
